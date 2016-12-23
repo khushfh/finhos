@@ -14,7 +14,8 @@ function GenerateURN(){
 				'amc_code_value'=>$this->line->amc_code_value,
 		);
 	}
-	return $this->return;
+	
+	return $this->return12;
 }
 
 function GetTxnStatus(){
