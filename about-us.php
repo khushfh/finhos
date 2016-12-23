@@ -16,10 +16,7 @@ function GenerateURN(){
 	}
 	return $this->return;
 }
-function kamini()
-{
-	echo 'hi';
-}
+
 function GetTxnStatus(){
 	$this->result = $this->db->query("select * from transaction_status where transaction_active_status = '1' ");
 	while($this->line = $this->db->fetchNextObject($this->result)){
